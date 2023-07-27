@@ -1,0 +1,74 @@
+@import url('fontawesome.min.css');
+@import url('regular.min.css');
+@import url('brands.min.css');
+@import url('solid.min.css');
+
+body 
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    outline: none;
+    background-image: linear-gradient(#c5f1c4,#54f04c,#17e90c);
+    align-content: center;
+    height: 800px;
+}
+
+body form
+{
+    font-size: 20px;
+    margin-left: 142px;
+    margin-right: 164px;
+    padding-left: 195px;
+    border: 0px solid #0eac06;
+    box-shadow: 9px 35px 30px #0eac06;
+    margin-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+body .container h1
+{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#fname ,#gmail ,#phone ,#address
+{
+    width: 375px;
+    height: 44px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+#date,#marriage,#photoshoot
+{
+    margin-top: 25px;
+}
+
+#photoshoot
+{
+    margin-left: 30px;
+}
+
+#fnameerror
+{
+    display: contents;
+    z-index: 1;
+}
+
+#fnameerror , #phoneerror , #gmailerror , #addresss
+{
+	
+}
+
+#submit
+{
+	padding:3px 15px 4px 15px;
+	margin-top:30px;
+	border-radius:8px;
+}
+
+#submit:hover
+{
+	background-color:#c5f1c4;
+}
+	
